@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChessTry</string>
+    <string name="app_name">N-Queens</string>
     <string name="new_game">New Game</string>
     <string name="leaderboard">Leaderboard</string>
     <string name="settings">Settings</string>

@@ -1,6 +1,13 @@
 package com.ejoe.chess.presentation.game
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -13,6 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -187,7 +195,17 @@ private fun ChessBoardGrid(
                     .clickable { onCellClick(row, col) },
                 contentAlignment = Alignment.Center
             ) {
-                if (isQueen) Text(stringResource(R.string.queen), fontSize = 24.sp)
+                AnimatedVisibility(
+                    visible = isQueen,
+                    enter = fadeIn(animationSpec = tween(300)) + scaleIn(animationSpec = tween(300)),
+                    exit = fadeOut(animationSpec = tween(300)) + scaleOut(animationSpec = tween(300))
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.queen),
+                        contentDescription = stringResource(R.string.queen),
+                        modifier = Modifier.size(cellSizeDp * 0.6f)
+                    )
+                }
             }
         }
     }

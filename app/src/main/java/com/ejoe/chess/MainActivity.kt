@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.ejoe.chess.ui.theme.ChessTryTheme
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.ejoe.chess.domain.logic.GameEngine
 import com.ejoe.chess.presentation.navigation.NavHostController
 import com.ejoe.chess.presentation.splash.SplashViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
