@@ -107,6 +107,14 @@ The `GameEngine` logic is fully unit tested.
 
 ---
 
+## 📥 Download
+
+You can download and install the app directly via **AppCircle**:
+
+🔗 **[Download Chess N-Queens Puzzle App](https://dist.appcircle.io/home/static-profile?profileId=fb12f242-4060-4641-902d-0f4158c0c6fb)**
+
+---
+
 ## 💡 Improvements To Consider
 
 - Add UI tests for GameScreen and ViewModels
