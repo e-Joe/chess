@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ChessTry</string>
+    <string name="new_game">New Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="finish">Finish</string>
+    <string name="queen">♛</string>
+    <string name="time_s">Time: %1$ss</string>
+    <string name="queens_left">Queens Left: %1$s</string>
+    <string name="clicks">Clicks: %1$s</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_successfully_solved_the_n_queens_puzzle">🎉 You successfully solved the N-Queens puzzle! 🎉</string>
+    <string name="play_again">Play Again</string>
+    <string name="place">Place</string>
+    <string name="size">Size</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="leaderboard_smiley">🏆 Leaderboard</string>
+    <string name="choose_board_colors">Choose board colors</string>
+    <string name="save">Save</string>
+    <string name="settings_title">Settings</string>
+    <string name="board_size_min_4">Board Size (min 4)</string>
+</resources>
