@@ -2,7 +2,7 @@ package com.ejoe.chess.domain.logic
 
 /**
  * Created by Ilija Vucetic on 10.5.25..
- * Copyright (c) 2025 Aktiia. All rights reserved.
+ * 
  * Core game logic engine for the game.
  * Tracks board state, queen positions, timer, and click count.
  */

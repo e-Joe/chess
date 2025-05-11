@@ -5,7 +5,7 @@ import com.ejoe.chess.domain.logic.CellPosition
 
 /**
  * Created by Ilija Vucetic on 10.5.25..
- * Copyright (c) 2025 Aktiia. All rights reserved.
+ * 
  */
 data class GameState(
     val queens: Set<CellPosition> = emptySet(),
